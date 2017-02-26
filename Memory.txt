@@ -1,0 +1,12 @@
+Assignment1C322 Ambrose Ryan Burgett 260615904 February 9th 2017
+ 
+1. (a) It will print not equal because passing x into the method is copying the value into a new address, and a is the new address of the value and b has the value of the address x which was passed into test, therefore not equal. 
+(b) If we add an ampersand before a in the method header, this means set a to the contents in the address x. Thus when comparing a = b, both are the address containing the value of x which is 3, therefore equal. 
+
+2. (a) They are equal because in func1 the address of x is on the stack and then returned, and then the stack is empty, so when func2 runs x is put in the same stack address, therefore equal. 
+
+3. No, because the code is trying to delete the same content twice, which is bad memory management. 
+
+4. Yes, because the content of p is deleted and then reassigned. 
+
+5. This function would print ”0” as the value of x, however since name only has space for ten characters and 12345678910” has 12 characters including the return character there is an error thrown (confirmed when checking answer in VSC)
